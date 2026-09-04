@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Jo-Vegi | جو-فيجي — Premium Jordanian vegetables, fruits, herbs & dates. From Jordan to the world. ريان نشوان — عمّان، الأردن">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Jo-Vegi | جو-فيجي">
+<meta property="og:title" content="Jo-Vegi | جو-فيجي — خضار وفواكه أردنية فاخرة">
+<meta property="og:description" content="خضار وفواكه الأردن… جودة تُصدَّر بثقة">
+<meta property="og:url" content="https://jo-vegi.github.io/jo-vegi/">
+<meta property="og:image" content="https://jo-vegi.github.io/jo-vegi/img/share-square.png">
+<meta property="og:image:width" content="1024">
+<meta property="og:image:height" content="1024">
+<meta property="og:image:type" content="image/png">
+<meta property="og:locale" content="ar_JO">
+<meta property="og:locale:alternate" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Jo-Vegi | جو-فيجي — خضار وفواكه الأردن… جودة تُصدَّر بثقة">
+<meta name="twitter:description" content="خضار وفواكه الأردن… جودة تُصدَّر بثقة">
+<meta name="twitter:image" content="https://jo-vegi.github.io/jo-vegi/img/share-square.png">
+<title>Jo-Vegi | جو-فيجي — خضار وفواكه أردنية فاخرة</title>
+<link rel="icon" type="image/png" href="img/logo-badge.png">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#14532d">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Jo-Vegi">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ================= Header ================= -->
+<header id="header">
+  <div class="container nav-wrap">
+    <a class="brand" href="#home">
+      <img src="img/logo-wide.png" alt="Jo-Vegi — الخضروات الأردنية | Jordanian Vegetables">
+    </a>
+    <nav id="nav">
+      <ul>
+        <li><a href="#home" data-i18n="nav.home">الرئيسية</a></li>
+        <li><a href="#products" data-i18n="nav.products">المنتجات</a></li>
+        <li><a href="#about" data-i18n="nav.about">من نحن</a></li>
+        <li><a href="#steps" data-i18n="nav.steps">طريقة الطلب</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">تواصل معنا</a></li>
+      </ul>
+    </nav>
+    <div class="nav-actions">
+      <button class="lang-toggle" id="installBtn" style="display:none;background:var(--gold);border-color:var(--gold);color:var(--green-950)" data-i18n="app.install">⬇ ثبّت التطبيق</button>
+      <button class="lang-toggle" id="langBtn" title="Switch language"><span data-i18n="lang.btn">EN</span></button>
+      <a class="cart-btn" href="#order" aria-label="Order cart">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1.6"/><circle cx="19" cy="21" r="1.6"/><path d="M2 2h3l2.6 12.4a2 2 0 0 0 2 1.6h9.7a2 2 0 0 0 2-1.6L23 6H6"/></svg>
+        <span class="cart-count" id="cartCount">0</span>
+      </a>
+      <button class="burger" id="burger" aria-label="menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<!-- ================= Hero ================= -->
+<section class="hero" id="home">
+  <svg class="hero-leaf" style="top:12%;inset-inline-start:6%;width:120px" viewBox="0 0 24 24" fill="#a3e635"><path d="M12 2C7 7 4 11 4 15a8 8 0 0 0 16 0c0-4-3-8-8-13z"/></svg>
+  <svg class="hero-leaf" style="bottom:20%;inset-inline-end:8%;width:90px;animation-direction:reverse" viewBox="0 0 24 24" fill="#eab308"><path d="M12 2C7 7 4 11 4 15a8 8 0 0 0 16 0c0-4-3-8-8-13z"/></svg>
+  <div class="container hero-grid">
+    <div>
+      <span class="hero-badge" data-i18n="hero.badge">🌿 من أرض الأردن إلى العالم</span>
+      <h1><span data-i18n="hero.title1">خضار وفواكه الأردن…</span><br><span data-i18n="hero.title2"><em>جودة</em> تُصدَّر <span class='gold'>بثقة</span></span></h1>
+      <p class="lead" data-i18n="hero.lead">Jo-Vegi — مشروع ريان نشوان لتسويق وتصدير أجود الخضار والفواكه الأردنية، قطفة طازجة وتعبئة احترافية وشحن موثوق إلى بابك أينما كنت.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-primary" href="#products" data-i18n="hero.cta1">تصفَّح المنتجات</a>
+        <a class="btn btn-ghost" href="#order" data-i18n="hero.cta2">اطلب الآن</a>
+        <a class="btn btn-whatsapp js-wa" href="#" target="_blank" rel="noopener" data-i18n="hero.cta3">واتساب مباشر</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><b data-i18n="stat1.n">+40</b><span data-i18n="stat1.t">منتجاً موسمياً ودائماً</span></div>
+        <div class="stat"><b data-i18n="stat2.n">12</b><span data-i18n="stat2.t">شهراً من التوريد</span></div>
+        <div class="stat"><b data-i18n="stat3.n">100%</b><span data-i18n="stat3.t">طبيعي ومقطوف يدوياً</span></div>
+        <div class="stat"><b data-i18n="stat4.n">3</b><span data-i18n="stat4.t">أيام لتجهيز الطلب</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="ph ph-1"><img src="img/bell-pepper.jpg" alt="Bell peppers"></div>
+      <div class="ph ph-2"><img src="img/tomato.jpg" alt="Tomatoes"></div>
+      <div class="ph ph-3"><img src="img/grapes.jpg" alt="Grapes"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= Marquee ================= -->
+<div class="marquee"><div class="marquee-track" id="marqueeTrack"></div></div>
+
+<!-- ================= Trust ================= -->
+<section class="trust">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="sec-kicker" data-i18n="trust.k">لماذا نحن</span>
+      <h2 data-i18n="trust.t">وعدُ الجودة من مزرعتنا إلى سوقك</h2>
+      <div class="leaf-divider"><i></i><i></i><i></i></div>
+    </div>
+    <div class="trust-grid">
+      <div class="trust-card reveal"><div class="ico"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="9" r="6"/><path d="M8.5 14 7 22l5-3 5 3-1.5-8"/></svg></div><h3 data-i18n="trust1.h">جودة فاخرة</h3><p data-i18n="trust1.p">فرز صارم وانتقاء يدوي لأفضل المحاصيل</p></div>
+      <div class="trust-card reveal"><div class="ico"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22c6-2 8-7 8-12V5l-8-3-8 3v5c0 5 2 10 8 12z"/><path d="M9 12c2 0 5 1 6 5"/></svg></div><h3 data-i18n="trust2.h">طازج وطبيعي</h3><p data-i18n="trust2.p">قطف في الوقت الأمثل بلا إضافات</p></div>
+      <div class="trust-card reveal"><div class="ico"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 8 12 3 3 8v13h18V8z"/><path d="M3 8l9 5 9-5M12 13v8"/></svg></div><h3 data-i18n="trust3.h">تعبئة متقنة</h3><p data-i18n="trust3.p">تغليف تصديري يحفظ النضارة لمسافات طويلة</p></div>
+      <div class="trust-card reveal"><div class="ico"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l4 4L20 6"/><path d="M4 18l4 4L20 12" opacity=".5"/></svg></div><h3 data-i18n="trust4.h">توريد موثوق</h3><p data-i18n="trust4.p">التزام بالكميات ومواعيد التسليم</p></div>
+      <div class="trust-card reveal"><div class="ico"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.5 3 14 0 18-3-4-3-14.5 0-18z"/></svg></div><h3 data-i18n="trust5.h">تصدير عالمي</h3><p data-i18n="trust5.p">جواً وبحراً وبراً إلى أسواق العالم</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= Products ================= -->
+<section class="products" id="products">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="sec-kicker" data-i18n="prod.k">كتالوج المنتجات</span>
+      <h2 data-i18n="prod.t">خيرُ الأردن… <span class='accent'>بين يديك</span></h2>
+      <p data-i18n="prod.p">محاصيل مختارة بعناية من أفضل المزارع الأردنية، جاهزة للتوريد المحلي والتصدير.</p>
+    </div>
+    <div class="filter-bar reveal" id="filterBar"></div>
+    <div class="search-wrap reveal">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><path d="m21 21-4-4"/></svg>
+      <input id="searchInput" type="search" data-i18n-ph="search.ph" placeholder="ابحث عن منتج…">
+    </div>
+    <div class="prod-grid" id="prodGrid"></div>
+  </div>
+</section>
+
+<!-- ================= About ================= -->
+<section class="about" id="about">
+  <div class="container about-grid">
+    <div class="about-visual reveal">
+      <div class="main-img"><img src="img/sunset-valley.jpg" alt="Jordan valley farms"></div>
+      <div class="float-card"><span class="num" data-i18n="about.card.n">+40</span><small data-i18n="about.card.t">صنف خضار وفواكه وأعشاب</small></div>
+    </div>
+    <div class="about-text reveal">
+      <span class="sec-kicker" data-i18n="about.k">قصتنا</span>
+      <h2 data-i18n="about.t">Jo-Vegi… من مزارع الأردن إلى موائد العالم</h2>
+      <p data-i18n="about.p1">وُلدت Jo-Vegi من شغفٍ بأرض الأردن وخيراتها.</p>
+      <p data-i18n="about.p2">نخدم التجار والمطاعم وشركات الاستيراد.</p>
+      <ul class="about-points">
+        <li><span class="tick">✓</span><span data-i18n="about.l1">محاصيل طبيعية من أراضٍ أردنية خصبة</span></li>
+        <li><span class="tick">✓</span><span data-i18n="about.l2">فرز ومراقبة جودة في كل خطوة</span></li>
+        <li><span class="tick">✓</span><span data-i18n="about.l3">تعبئة مخصّصة حسب طلب العميل</span></li>
+        <li><span class="tick">✓</span><span data-i18n="about.l4">شحن سريع: جوي، بحري وبري</span></li>
+      </ul>
+      <div class="owner-card">
+        <span class="avatar">RN</span>
+        <div><b data-i18n="about.owner">ريان نشوان</b><small data-i18n="about.owner.t">مؤسِّس Jo-Vegi — عمّان، الأردن</small></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= Steps ================= -->
+<section class="steps" id="steps">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="sec-kicker" data-i18n="steps.k">طريقة الطلب</span>
+      <h2 data-i18n="steps.t">ست خطوات… ويصلك الخير</h2>
+      <p data-i18n="steps.p">عملية طلب بسيطة وسريعة وموثوقة.</p>
+    </div>
+    <div class="steps-grid">
+      <div class="step reveal"><div class="n">1</div><h3 data-i18n="s1.h">تصفَّح الكتالوج</h3><p data-i18n="s1.p">اختر منتجاتك من كتالوجنا المتنوّع.</p></div>
+      <div class="step reveal"><div class="n">2</div><h3 data-i18n="s2.h">أضِفها لسلة الطلب</h3><p data-i18n="s2.p">حدَّد الكميات ونوع التعبئة المناسب.</p></div>
+      <div class="step reveal"><div class="n">3</div><h3 data-i18n="s3.h">أرسل طلبك</h3><p data-i18n="s3.p">عبر نموذج الطلب بالبريد أو برسالة واتساب مباشرة.</p></div>
+      <div class="step reveal"><div class="n">4</div><h3 data-i18n="s4.h">استلم عرض السعر</h3><p data-i18n="s4.p">نجهّز فاتورة أولية بالأسعار والتوفر والتفاصيل.</p></div>
+      <div class="step reveal"><div class="n">5</div><h3 data-i18n="s5.h">أكِّد طلبك</h3><p data-i18n="s5.p">بعد التأكيد والدفع نحجز بضاعتك ونجهّزها للشحن.</p></div>
+      <div class="step reveal"><div class="n">6</div><h3 data-i18n="s6.h">الاستلام</h3><p data-i18n="s6.p">يُجهَّز طلبك خلال 3 أيام حسب التوفر وجدول الشحن.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= Order ================= -->
+<section class="order" id="order">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="sec-kicker" data-i18n="order.k">نموذج الشراء</span>
+      <h2 data-i18n="order.t">أرسِل طلبك… <span class='accent'>يصلنا فوراً</span></h2>
+      <p data-i18n="order.p">املأ البيانات وسيرسل النموذج طلبك كاملاً إلى بريدنا الإلكتروني، أو أرسله واتساب بضغطة زر.</p>
+    </div>
+    <div class="order-grid">
+      <form class="order-form reveal" onsubmit="return false">
+        <div class="form-row">
+          <div class="field"><label data-i18n="f.name">الاسم الكامل *</label><input id="fName" required data-i18n-ph="f.name.ph" placeholder="مثال: محمد أحمد"></div>
+          <div class="field"><label data-i18n="f.company">اسم الشركة (اختياري)</label><input id="fCompany" data-i18n-ph="f.company.ph" placeholder="شركة الاستيراد / المطعم"></div>
+        </div>
+        <div class="form-row">
+          <div class="field"><label data-i18n="f.phone">رقم الهاتف / واتساب *</label><input id="fPhone" required dir="ltr" data-i18n-ph="f.phone.ph" placeholder="+962 7X XXX XXXX"></div>
+          <div class="field"><label data-i18n="f.email">بريدك الإلكتروني *</label><input id="fEmail" type="email" required dir="ltr" data-i18n-ph="f.email.ph" placeholder="you@example.com"></div>
+        </div>
+        <div class="form-row">
+          <div class="field"><label data-i18n="f.city">المدينة / البلد *</label><input id="fCity" required data-i18n-ph="f.city.ph" placeholder="عمّان — الأردن"></div>
+          <div class="field"><label data-i18n="f.delivery">طريقة التسليم</label>
+            <select id="fDelivery">
+              <option data-i18n="del1">C&F (ميناء / مطار الوصول)</option>
+              <option data-i18n="del2">DDP (تسليم نهائي بعنوان العميل)</option>
+              <option data-i18n="del3">استلام محلي / تفاصيل أخرى</option>
+            </select>
+          </div>
+        </div>
+        <div class="field"><label data-i18n="f.notes">ملاحظات / أصناف خاصة</label><textarea id="fNotes" data-i18n-ph="f.notes.ph" placeholder="أخبرنا بأي تفاصيل إضافية…"></textarea></div>
+        <div class="order-actions">
+          <button type="button" class="btn btn-primary" id="sendEmailBtn" data-i18n="order.send">📨 إرسال الطلب عبر البريد</button>
+          <button type="button" class="btn btn-whatsapp" id="sendWaBtn" data-i18n="order.wa">🟢 إرسال عبر واتساب</button>
+        </div>
+      </form>
+      <aside class="cart-panel reveal">
+        <h3 data-i18n="cart.title">🧺 سلة الطلب</h3>
+        <div id="cartItems"><div class="cart-empty">سلّتك فارغة… ✨</div></div>
+        <div class="cart-total" id="cartTotalLine" style="display:none"><span data-i18n="cart.items">صنفاً</span><b id="cartTotal">0</b></div>
+        <div style="text-align:center;margin-top:14px"><button id="cartClear" style="color:#8fb89b;font-weight:700;font-size:.8rem;text-decoration:underline" data-i18n="cart.clear">إفراغ السلة</button></div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ================= Contact ================= -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="sec-kicker" data-i18n="contact.k">تواصل معنا</span>
+      <h2 data-i18n="contact.t">يسعدنا خدمتك… <span class='accent'>في أي وقت</span></h2>
+    </div>
+    <div class="contact-grid">
+      <a class="contact-card wa reveal js-wa" href="#" target="_blank" rel="noopener">
+        <div class="ico"><svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5.1-1.3A10 10 0 1 0 12 2zm5.4 14.1c-.2.7-1.3 1.3-1.9 1.4-.5.1-1.1.1-1.8-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5.1-4.5-.1-.2-1.2-1.6-1.2-3s.7-2.1 1-2.4c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.4s.8 1.9.8 2c.1.1.1.3 0 .5-.3.6-.7.9-.5 1.2.7 1.2 1.6 2 2.8 2.6.3.2.5.1.7-.1s.8-.9 1-1.2c.2-.3.4-.2.7-.1s1.7.8 2 .9c.3.2.5.2.6.4 0 .1 0 .8-.2 1.4z"/></svg></div>
+        <h3 data-i18n="c1.h">واتساب</h3><p data-i18n="c1.p">+962 77 550 1100</p><small data-i18n="c1.a">راسلنا الآن</small>
+      </a>
+      <a class="contact-card reveal js-tel" href="tel:+962775501100">
+        <div class="ico"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.4 2.1L8.1 10a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.9.6 2.9.7a2 2 0 0 1 1.6 2z"/></svg></div>
+        <h3 data-i18n="c2.h">اتصال مباشر</h3><p data-i18n="c2.p">+962 77 550 1100</p><small data-i18n="c2.a">اتصل بنا</small>
+      </a>
+      <a class="contact-card reveal js-mail" href="mailto:ZarqaFreeZone@gmail.com">
+        <div class="ico"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="3"/><path d="m2 7 10 7L22 7"/></svg></div>
+        <h3 data-i18n="c3.h">البريد الإلكتروني</h3><p data-i18n="c3.p">ZarqaFreeZone@gmail.com</p><small data-i18n="c3.a">أرسل بريداً</small>
+      </a>
+      <div class="contact-card reveal">
+        <div class="ico"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+        <h3 data-i18n="c4.h">العنوان</h3><p data-i18n="c4.p">عمّان — الأردن</p><small data-i18n="c4.a">عمّان، المملكة الأردنية الهاشمية</small>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= Footer ================= -->
+<footer>
+  <div class="container">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-brand"><img src="img/logo-badge.png" alt="Jo-Vegi"><b>Jo-Vegi</b></div>
+        <p data-i18n="foot.about">Jo-Vegi — بوابتك لخيرات الأردن.</p>
+      </div>
+      <div>
+        <h4 data-i18n="foot.links">روابط سريعة</h4>
+        <ul>
+          <li><a href="#products" data-i18n="nav.products">المنتجات</a></li>
+          <li><a href="#about" data-i18n="nav.about">من نحن</a></li>
+          <li><a href="#steps" data-i18n="nav.steps">طريقة الطلب</a></li>
+          <li><a href="#order" data-i18n="nav.order">اطلب الآن</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="foot.contact">التواصل</h4>
+        <ul>
+          <li><a class="js-wa" href="#" target="_blank" rel="noopener">WhatsApp: +962 77 550 1100</a></li>
+          <li><a class="js-mail" href="mailto:ZarqaFreeZone@gmail.com">ZarqaFreeZone@gmail.com</a></li>
+          <li><a href="#contact"><span data-i18n="c4.p">عمّان — الأردن</span></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom"><span data-i18n="foot.rights">© 2026 Jo-Vegi — ريان نشوان. جميع الحقوق محفوظة.</span> · <b data-i18n="foot.made">صُنع بحب في الأردن 💚</b></div>
+  </div>
+</footer>
+
+<a class="fab-wa js-wa" id="waFab" href="#" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg width="30" height="30" viewBox="0 0 24 24" fill="#fff"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5.1-1.3A10 10 0 1 0 12 2zm5.4 14.1c-.2.7-1.3 1.3-1.9 1.4-.5.1-1.1.1-1.8-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5.1-4.5-.1-.2-1.2-1.6-1.2-3s.7-2.1 1-2.4c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.4s.8 1.9.8 2c.1.1.1.3 0 .5-.3.6-.7.9-.5 1.2.7 1.2 1.6 2 2.8 2.6.3.2.5.1.7-.1s.8-.9 1-1.2c.2-.3.4-.2.7-.1s1.7.8 2 .9c.3.2.5.2.6.4 0 .1 0 .8-.2 1.4z"/></svg>
+</a>
+
+<div class="toast" id="toast"></div>
+
+<script src="js/products.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

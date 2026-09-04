@@ -1,0 +1,21 @@
+{
+  "name": "Jo-Vegi | جو-فيجي — خضار وفواكه أردنية فاخرة",
+  "short_name": "Jo-Vegi",
+  "description": "Premium Jordanian fruits & vegetables — from Jordan to the world. خضار وفواكه أردنية فاخرة من أرض الأردن إلى العالم.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "lang": "ar",
+  "dir": "rtl",
+  "background_color": "#052e16",
+  "theme_color": "#14532d",
+  "categories": ["shopping", "food", "business"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-192-maskable.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
