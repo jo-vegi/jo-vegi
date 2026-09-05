@@ -255,6 +255,15 @@
       if (window.__pwaPrompt) { window.__pwaPrompt.prompt(); window.__pwaPrompt = null; $("#installBtn").style.display = "none"; }
     };
 
+    // visitor counter — starts at 1,974 (abacus value + offset)
+    const vc = $("#visitCount");
+    if (vc) {
+      fetch("https://abacus.jasoncameron.dev/hit/jo-vegi/visits")
+        .then((r) => r.json())
+        .then((d) => { vc.textContent = (1972 + (d.value || 2)).toLocaleString("en-US"); })
+        .catch(() => {});
+    }
+
     // fill contact values
     $$(".js-wa").forEach((a) => (a.href = `https://wa.me/${WA_NUMBER}`));
     $$(".js-tel").forEach((a) => (a.href = `tel:+${WA_NUMBER}`));

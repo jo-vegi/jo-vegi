@@ -1,5 +1,5 @@
 /* Jo-Vegi service worker — offline shell + cache-first assets */
-const CACHE = "jovegi-v2";
+const CACHE = "jovegi-v3";
 const CORE = [
   "./",
   "./index.html",
