@@ -405,3 +405,14 @@ footer ul a:hover{color:var(--gold);padding-inline-start:6px}
 
 .visit-counter{color:#f2c14e;white-space:nowrap}
 .visit-counter b{color:#fff}
+
+/* social pulsing buttons */
+.foot-social{display:flex;align-items:center;justify-content:center;gap:18px;margin:30px 0 10px;flex-wrap:wrap}
+.foot-social span{color:#fff;font-weight:700;font-size:1.05rem}
+.soc{width:58px;height:58px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;color:#fff;transition:transform .25s ease}
+.soc svg{width:28px;height:28px}
+.soc:hover{transform:scale(1.15) rotate(-5deg)}
+.soc.fb{background:linear-gradient(135deg,#1877f2,#0a5dc2);animation:pulseFb 1.8s infinite}
+.soc.ig{background:radial-gradient(circle at 30% 110%,#fdf497 0%,#fd5949 45%,#d6249f 60%,#285AEB 90%);animation:pulseIg 1.8s infinite .45s}
+@keyframes pulseFb{0%{box-shadow:0 0 0 0 rgba(24,119,242,.6)}70%{box-shadow:0 0 0 20px rgba(24,119,242,0)}100%{box-shadow:0 0 0 0 rgba(24,119,242,0)}}
+@keyframes pulseIg{0%{box-shadow:0 0 0 0 rgba(214,36,159,.6)}70%{box-shadow:0 0 0 20px rgba(214,36,159,0)}100%{box-shadow:0 0 0 0 rgba(214,36,159,0)}}
