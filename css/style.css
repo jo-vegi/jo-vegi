@@ -402,3 +402,6 @@ footer ul a:hover{color:var(--gold);padding-inline-start:6px}
   .order-form{padding:26px}
   .hero-stats{gap:22px}
 }
+
+.visit-counter{color:#f2c14e;white-space:nowrap}
+.visit-counter b{color:#fff}
